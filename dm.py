@@ -1,5 +1,5 @@
 
-@client.command()
+    @client.command()
     async def contact(ctx):
         first_msg = await ctx.send("Êtes-vous sure de vouloir contacter le staff ?")
         await first_msg.add_reaction("✅")
